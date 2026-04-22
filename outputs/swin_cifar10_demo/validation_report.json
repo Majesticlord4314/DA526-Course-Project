@@ -1,0 +1,29 @@
+{
+  "val_loss": 1.2155300061913985,
+  "val_accuracy": 68.0,
+  "total_params": 1269490,
+  "num_val_samples": 10000,
+  "per_class_accuracy": {
+    "airplane": 76.2,
+    "automobile": 79.1,
+    "bird": 63.5,
+    "cat": 47.0,
+    "deer": 58.2,
+    "dog": 52.2,
+    "frog": 78.7,
+    "horse": 69.8,
+    "ship": 78.5,
+    "truck": 76.8
+  },
+  "top_k_accuracy": {
+    "top_1": 68.0,
+    "top_3": 91.66,
+    "top_5": 97.24000000000001
+  },
+  "mean_confidence": 0.6524268388748169,
+  "correct_confidence": 0.717824399471283,
+  "incorrect_confidence": 0.5134570598602295,
+  "checkpoint_path": "E:\\Pal\\Tina Assignment\\Tina Assignment\\outputs\\swin_cifar10_demo\\best_model.pth",
+  "best_val_acc_in_checkpoint": 68.0,
+  "epoch_in_checkpoint": 34
+}

@@ -1,0 +1,33 @@
+BASE: ['swin_tiny_patch4_window7_224.yaml']
+
+DATA:
+  DATASET: imagefolder
+  IMG_SIZE: 224
+  BATCH_SIZE: 2
+  NUM_WORKERS: 0
+
+MODEL:
+  NAME: swin_tiny_patch4_window7_224_cifar10_demo
+  LABEL_SMOOTHING: 0.0
+
+AUG:
+  MIXUP: 0.0
+  CUTMIX: 0.0
+  AUTO_AUGMENT: none
+  REPROB: 0.0
+
+TRAIN:
+  EPOCHS: 2
+  WARMUP_EPOCHS: 0
+  BASE_LR: 5e-5
+  WARMUP_LR: 5e-7
+  MIN_LR: 1e-6
+  WEIGHT_DECAY: 0.01
+  AUTO_RESUME: False
+
+TEST:
+  CROP: True
+  SEQUENTIAL: True
+
+SAVE_FREQ: 1
+PRINT_FREQ: 20

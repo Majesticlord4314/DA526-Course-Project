@@ -1,0 +1,45 @@
+{
+  "config": {
+    "img_size": 32,
+    "patch_size": 4,
+    "in_chans": 3,
+    "num_classes": 10,
+    "embed_dim": 48,
+    "depths": [
+      2,
+      2,
+      2
+    ],
+    "num_heads": [
+      4,
+      8,
+      16
+    ],
+    "window_size": 4,
+    "mlp_ratio": 4,
+    "qkv_bias": true,
+    "drop_rate": 0.0,
+    "drop_path_rate": 0.15,
+    "batch_size": 128,
+    "learning_rate": 0.0003,
+    "weight_decay": 0.01,
+    "label_smoothing": 0.1,
+    "train_subset_pct": 0.5,
+    "val_subset_pct": 1.0,
+    "seed": 42,
+    "target_acc": 75.0,
+    "max_epochs": 500,
+    "output_dir": "E:\\Pal\\Tina Assignment\\Tina Assignment\\outputs\\swin_cifar10_demo",
+    "save_every_n_epochs": 10
+  },
+  "final_train_accuracy": 82.0,
+  "final_val_accuracy": 75.5,
+  "best_val_accuracy": 75.5,
+  "best_val_epoch": 82,
+  "final_train_loss": 0.9131526810174085,
+  "final_val_loss": 1.065215588370456,
+  "total_params": 1269490,
+  "training_time_seconds": 1466.48,
+  "training_time_str": "0:24:26",
+  "avg_epoch_time": 17.85
+}

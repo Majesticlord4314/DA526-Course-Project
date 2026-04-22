@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Data & datasets
+data/cifar10/
+downloads/
+dataset/
+
+# Node modules
+node_modules/
+
+# Temporary files
+tmp/
+*.tmp
+
+# Git
+.git/
+
+# Archives and large files
+*.zip
+save_now.flag
+*.pth
+*.pt
+
+# Images (keep validation_samples.png, training_curves.png, confusion_matrix.png - but they're already tracked)
+# Let's include them actually since user said "outputs"
